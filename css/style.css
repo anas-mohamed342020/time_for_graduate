@@ -1,0 +1,89 @@
+main {
+  background-image: url("../images/events-heavenly-header.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.bgcolor {
+  background-color: rgba(214, 46, 51, 0.3);
+}
+.option {
+  background-color: #414658;
+  width: 0px;
+  overflow: hidden;
+  left: 0;
+  z-index: 9999999999999999999;
+}
+.option .far {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.open {
+  left: 0;
+  color: white;
+
+  width: 110px;
+  cursor: pointer;
+}
+*{
+  scroll-behavior:  auto !important;
+}
+.nav {
+  transition: color 0.5s;
+  cursor: pointer;
+}
+.nav1 {
+  font-weight: 600;
+  padding: 20px 8px 20px 32px;
+}
+.nav:hover {
+  color: rgba(214, 46, 51, 0.4) !important;
+}
+.ps{
+  background-color: rgb(204, 204, 204);
+  padding: 10px;
+  overflow: hidden;
+}
+.singer-header
+{
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+}
+.h-0
+{
+  height: 0px;
+  padding: 0 ;
+}
+
+
+
+.h-150
+{
+  height: 150px;
+}
+.con-social i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
+}
+.con-social i:hover {
+  color: #fff;
+  background-color: #D62E33;
+  border: 1px solid #D62E33;
+}
+#rem
+{
+  font-size: 20px;
+}
+button {
+  background-color: #D62E33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+}
